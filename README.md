@@ -1,16 +1,13 @@
-# SoilHealth Predictor: Machine Learning for Soil Fertility Classification
-
-**Repository:** MiniProject_DS_AIML-A_SoilHealthPredictor
-**Institution:** SRM Institute of Science and Technology
-**Department:** B.Tech AI & ML — Section A
-
----
-
-## Project Title
-
 SoilHealth Predictor: Machine Learning for Soil Fertility Classification
 
----
+Repository: MiniProject_DS_AIML-A_SoilHealthPredictor
+Institution: SRM Institute of Science and Technology
+Department: B.Tech AI & ML — Section A
+
+
+Project Title
+
+SoilHealth Predictor: Machine Learning for Soil Fertility Classification
 
 Abstract
 
@@ -158,7 +155,7 @@ Team Members
 | HARSITHA G P          | RA2311026050197    | Preprocessing & dataset generation    |
 |                       |                    | Report, README, documentation         |
 
-GitHub Repository: https://github.com/[team-leader]/MiniProject_DS_AIML-B_2026_SoilHealthPredictor
+GitHub Repository: https://github.com/aftsclnaps/MiniProject_DS_AIML-A_2026_SOILHEALTH.git
 
 
 How to Run

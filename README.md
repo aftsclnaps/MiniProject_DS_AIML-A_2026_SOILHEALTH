@@ -161,7 +161,7 @@ GitHub Repository: https://github.com/aftsclnaps/MiniProject_DS_AIML-A_2026_SOIL
 How to Run
 
 Step 1: Clone the repository
-git clone https://github.com/[username]/MiniProject_DS_AIML-B_2026_SoilHealthPredictor.git
+git clone https://github.com/aftsclnaps/MiniProject_DS_AIML-A_2026_SOILHEALTH.git
 cd MiniProject_DS_AIML-B_2026_SoilHealthPredictor
 
 Step 2: Install dependencies

@@ -1,0 +1,111 @@
+PROBLEM STATEMENT
+
+Project Title: SoilHealth Predictor: Machine Learning for Soil Fertility
+               Classification
+
+Institution:   SRM Institute of Science and Technology
+Course:        Data Science Mini Project | B.Tech AI & ML — Section A
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. BACKGROUND
+
+Agriculture contributes approximately 18% of India's GDP and employs over
+60% of the rural population. Soil health is the single most important
+determinant of crop yield and long-term agricultural sustainability.
+However, the dominant method of evaluating soil fertility — laboratory-based
+chemical analysis — is inaccessible to the majority of Indian farmers due
+to high cost (₹500–₹2000 per test), long turnaround times (7–14 days),
+and limited availability of testing facilities in rural areas.
+
+This results in widespread misuse of fertilizers: over-application
+degrades soil structure, increases input costs, and pollutes groundwater,
+while under-application reduces yield by an estimated 30–40%. There is a
+pressing need for an automated, data-driven solution that can classify
+soil fertility rapidly and affordably.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. PROBLEM DEFINITION
+
+Design and develop a machine learning-based soil fertility classification
+system that:
+
+  (a) Accepts seven measurable physicochemical soil parameters as input:
+      Nitrogen (N), Phosphorus (P), Potassium (K), pH, moisture content,
+      temperature, and electrical conductivity (EC)
+
+  (b) Classifies the soil sample into one of four fertility categories:
+      High Fertility | Medium Fertility | Low Fertility | Poor Fertility
+
+  (c) Achieves classification accuracy exceeding 85% on unseen test data
+
+  (d) Identifies the most influential soil parameters for fertility
+      classification using feature importance analysis
+
+  (e) Provides actionable fertilization recommendations based on the
+      predicted fertility class
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. OBJECTIVES
+
+  Primary:
+  - Implement and compare four supervised ML classifiers (Random Forest,
+    Decision Tree, KNN, Naive Bayes) for soil fertility classification
+  - Evaluate models using accuracy, F1-score, and cross-validation
+
+  Secondary:
+  - Perform thorough exploratory data analysis of soil features
+  - Identify the most predictive soil parameters
+  - Build an interactive prediction interface for real-time classification
+  - Document the complete data science workflow in Jupyter Notebooks
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. SCOPE AND CONSTRAINTS
+
+  Scope:
+  - Dataset: 2,200 synthetic soil samples (ICAR standard ranges)
+  - Target: 4-class multiclass classification problem
+  - Models: scikit-learn implementations in Python
+  - Evaluation: Test accuracy, weighted F1, 5-fold cross-validation,
+                confusion matrix, per-class precision and recall
+
+  Constraints:
+  - Dataset is synthetic due to unavailability of a sufficiently large
+    labelled real-world soil dataset in the public domain
+  - The system does not account for geographic or seasonal variation
+  - Model training is performed offline; real-time IoT integration is
+    outside the scope of this project
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. EXPECTED OUTCOMES
+
+  - A trained Random Forest model achieving ≥90% test accuracy
+  - Complete EDA with 7+ visualizations saved to outputs/graphs/
+  - Model comparison report saved to outputs/results/
+  - A working prediction interface that classifies new soil samples
+  - Full GitHub repository with structured code, notebooks, and documentation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. REFERENCES
+
+  [1] ICAR — Soil Fertility and Fertilizer Use Guidelines, 2022
+      https://icar.org.in
+
+  [2] Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32.
+
+  [3] Scikit-learn: Machine Learning in Python — Pedregosa et al., 2011.
+      Journal of Machine Learning Research, 12, 2825–2830.
+
+  [4] FAO — Soil Health and Sustainable Agriculture, 2020.
+      https://www.fao.org/soils-portal
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Prepared by: U RAMYA SRI, HARSITHA GP
+Register Nos: RA2311026050042, RA2311026050197
+Guide: DR.SASIKALA, Dept. of AI & ML, SRMIST
